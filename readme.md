@@ -21,6 +21,8 @@ That's it! You're good to go
 
 - Uses AJAX for better UX
 
+- Images created with Photoshop
+
 - Custom RSS Library under /vendor/laravel/framework/src/Illuminate/Support/Facades/RSS.php
 
     *Any additional RSS feed should be added there*
