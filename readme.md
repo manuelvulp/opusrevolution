@@ -10,6 +10,8 @@ This project is designed to crawl chosen RSS feeds for revolutions, uprisings an
   
   /sql/revolution.sql
 
+If you are not installing this on localhost with username root and no password then change it to whatever you have under **/app/config/database.php**
+
 3) Visit "www.yoursite.com/updaterss " to update database with RSS feeds
 
 That's it! You're good to go
