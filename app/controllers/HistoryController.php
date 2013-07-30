@@ -38,7 +38,4 @@ class HistoryController extends BaseController
     
     return $this->render();
   }
-
-  
-
 }

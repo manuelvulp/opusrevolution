@@ -22,7 +22,4 @@ class AboutController extends BaseController
     $this->view = View::make('about.contact');
     return $this->render();
   }
-
-  
-
 }

@@ -97,5 +97,4 @@ class ModelEvents extends Eloquent {
 
 		return $events;
 	}
-
 }

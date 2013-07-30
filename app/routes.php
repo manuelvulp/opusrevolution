@@ -4,9 +4,6 @@
  * App routing
  */
 
-/**
- *  Index routing
- */
 Route::get('/', 'HomeController@index');
 Route::get('/music', 'MusicController@index');
 Route::get('/archive', 'ArchiveController@index');
@@ -36,5 +33,4 @@ Route::post('/json/byarea', 'JsonController@getEventsByArea');
 App::missing(function($exception) 
 {
     return Response::view('errors.404', array(), 404);
-  // return Redirect::to('')->with('errorMessage', 'Login Failed');
 });

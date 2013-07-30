@@ -29,5 +29,4 @@ class ModelRSS extends Eloquent {
 			}
 		}
 	}
-
 }

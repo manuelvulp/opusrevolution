@@ -34,3 +34,4 @@ That's it! You're good to go
 - View files -> **/app/views**
 - Models -> **/app/models**
 - Assets -> **/public/**
+- Routing -> **/app/routes.php**

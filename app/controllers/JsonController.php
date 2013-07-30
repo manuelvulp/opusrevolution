@@ -53,5 +53,4 @@ class JsonController extends Controller
 
     return Response::json($events);
   }
-
 }

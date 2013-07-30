@@ -58,5 +58,4 @@ class BaseController extends Controller {
 			$this->layout->activeFeaturedItem = $activeFeaturedItem;
 		}
 	}
-
 }

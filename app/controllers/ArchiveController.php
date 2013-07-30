@@ -5,9 +5,7 @@ class ArchiveController extends BaseController
   public function index()
   {
     $this->setActiveMenuItem('item-menu-2', 'item-featured-2');
-
     $this->view = View::make('archive.index');
-    // RSS::updateDatabaseFeeds();
     return $this->render();
   }
 
@@ -20,5 +18,4 @@ class ArchiveController extends BaseController
     $this->view->event = $event;
     return $this->render();
   }
-
 }
