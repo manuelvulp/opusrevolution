@@ -30,7 +30,8 @@ That's it! You're good to go
 - Since it might be a slight challenge to find exactly the information needed from RSS feeds, example events have been included out of the box
 
 
-## Brief overview of structure should one need to find any files made for this project
+## Overview of structure 
+### (Should one need to find any files made for this project)
 
 - Controller files -> **/app/controllers** 
 - View files -> **/app/views**
