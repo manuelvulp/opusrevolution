@@ -1,0 +1,25 @@
+.event-title {
+  color: #F60;
+  font-size: 2.5em;
+  font-weight: 100;
+  line-height: 60px;
+  padding: 10px;
+  text-align: center;
+}
+
+.event-bar {
+  color: #CCC;
+  height: 40px;
+}
+/*
+.event-content {
+  padding: 10px;
+}*/
+
+.event-link a {
+  color: #F60;
+}
+
+.event-link a:hover {
+  text-decoration: underline;
+}

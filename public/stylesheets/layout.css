@@ -1,0 +1,239 @@
+/******************************/
+/*********** GLOBALS **********/
+/******************************/
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed);*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400);
+/*@import url(http://fonts.googleapis.com/css?family=Lato:100,400);*/
+/*@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400);*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  /*background: url(../images/tinie.jpg) no-repeat fixed;*/
+  background-size: cover;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -70px; /* Footer margin */
+}
+
+.wrapper-footer, 
+.push { 
+  height: 70px 
+}
+
+.wrapper-footer {
+  background: #333;
+  bottom: 0;
+  width: 100%;
+}
+
+body,
+a,
+input,
+textarea {
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  /*font-size: 1em;*/
+  font-weight: 400;
+}
+
+body {
+  color: #333;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.input {
+  height: 40px !important;
+  margin-top: 10px;
+  width: 95%;
+}
+
+a:hover { text-decoration: none }
+hr      { margin: 0px !important; }
+.left   { text-align: left }
+.center { text-align: center }
+.right  { text-align: right }
+.p10    { padding: 10px }
+.p15    { padding: 15px }
+.p20    { padding: 20px }
+.hidden { display: none !important }
+.uc     { text-transform: uppercase; }
+
+.black {
+  background: #333;
+  color: white;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/******************************/
+/*********** FOOTER ***********/
+/******************************/
+
+.wrapper-footer .container-fluid {
+  background: #333;
+}
+
+.item-footer {
+  cursor: pointer;
+  padding: 120px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.img-footer {
+  height: 30px;
+  padding: 20px;
+  width: 30px;
+}
+
+
+
+/******************************/
+/*********** HEADER ***********/
+/******************************/
+
+.triangle-header {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #333;
+  height: 0;
+  /*margin-left: 60px;*/
+  margin-top: 10px;
+  position: absolute;
+  width: 0;
+/*  background: url(../images/menu/fist_small.png);
+  height: 40px;
+  margin-top: -10px;
+  position: absolute;
+  width: 40px;*/
+}
+
+.wrapper-header {
+  width: 100%;
+}
+
+.active-item-menu {
+  color: #F60 !important;
+}
+
+.item-menu {
+  color: #333;
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 40px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.item-menu:hover {
+  color: #333;
+}
+
+.item-menu-1 {
+  background: url(../images/menu/flag.png) no-repeat;
+  background-size: cover;
+}
+
+.item-menu-2 {
+  background: url(../images/menu/rev.png);
+}
+
+.item-menu-3 {
+  background: url(../images/menu/books.png);
+}
+
+.item-menu-4 {
+  background: url(../images/menu/info.png);
+}
+
+.item-menu-divider {
+  background: #333;
+}
+
+
+/******************************/
+/********* SUBHEADER **********/
+/******************************/
+
+.wrapper-subheader {
+  background: #333;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slider-subheader {
+  height: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.item-subheader-1,
+.item-subheader-2,
+.item-subheader-3,
+.item-subheader-4 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.item-subheader-1-content,
+.item-subheader-2-content,
+.item-subheader-3-content,
+.item-subheader-4-content {
+  color: white;
+  padding: 10px;
+}
+
+.item-subheader-1 { margin-left: 0% }
+.item-subheader-2 { margin-left: 100% }
+.item-subheader-3 { margin-left: 200% }
+.item-subheader-4 { margin-left: 300% }
+
+.hero-featured {
+  color: white;
+  width: 100%;
+}
+
+.title-featured {
+  color: white;
+  /*margin: 10px;*/
+  font-size: 2.5em;
+  font-weight: 100;
+  line-height: 60px;
+  /*padding: 10px;*/
+}
+
+.title-featured:hover {
+  color: #CCC;
+}
+
+.item-featured {
+  padding: 10px;
+}
+
+.faded-out {
+  color: #999;
+}
+
+.active-text {
+  color: #F60 !important;
+}

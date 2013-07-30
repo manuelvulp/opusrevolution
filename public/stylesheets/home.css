@@ -1,0 +1,176 @@
+.hero-world {
+
+}
+
+.wrapper-world {
+  /*background: black;*/
+  height: 518px;
+  padding: 10px;
+  overflow: hidden;
+  width: 1180px;
+}
+
+
+.fist {
+  background: url(../images/fist_red.png);
+  height: 29px;
+  position: absolute;
+  z-index: 0;
+  width: 20px;
+/*  margin-left: 780px;
+  margin-top: 200px;*/
+}
+
+.trigger-fist {
+  cursor: pointer;
+  height: 29px;
+  position: absolute;
+  width: 20px;
+}
+
+.wrapper-info {
+  background: url(../images/opacity_black.png);
+  display: none;
+  /*height: 100px;*/
+  margin-left: 10px;
+  margin-top: 35px;
+  position: absolute;
+  width: 400px;
+}
+
+.content-info {
+  color: white;
+  /*padding: 10px;*/
+}
+
+.world {
+  width: 1180px;
+  position: absolute;
+}
+
+.from,
+.to {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.from input,
+.to input { 
+  font-size: 2em;
+  font-weight: 100;
+  line-height: 60px;
+  height: 60px !important;
+  width: 100%;
+}
+
+.from-to,
+.search {
+  /*background: #F60;*/
+  font-size: 2em;
+  font-weight: 100;
+  line-height: 60px;
+}
+
+.from-to {
+  color: #F60;
+}
+
+.display {
+  font-size: 2em;
+  font-weight: 100;
+  line-height: 60px;
+}
+
+.search {
+  margin-left: 10px !important;
+  width: 98% !important;
+}
+
+#ui-datepicker-div {
+  background: url(../images/opacity_black.png);
+  z-index: 1000;
+}
+
+.ui-icon:hover {
+  cursor: pointer;
+  text-shadow: 0 0 5px white;
+}
+
+.ui-datepicker-calendar td {
+  padding: 10px;
+}
+
+.ui-datepicker-header,
+.ui-datepicker-title {
+  text-align: center;
+  padding: 10px;
+}
+
+.ui-icon-circle-triangle-w {
+  float: left;
+  font-weight: 100;
+}
+
+.ui-icon-circle-triangle-e {
+  float: right;
+  font-weight: 100;
+}
+
+#ui-datepicker-div,
+#ui-datepicker-div span {
+  color: white;
+}
+
+.ui-datepicker-calendar a {
+  color: rgb(200,200,200);
+}
+
+.ui-datepicker-calendar span {
+  font-weight: 100;
+}
+
+.ui-datepicker-calendar a:hover {
+  color: white;
+  text-shadow: 0 0 5px white;
+}
+
+.ui-icon,
+.ui-datepicker-month,
+.ui-datepicker-calendar th {
+  padding: 10px;
+}
+
+.ui-datepicker-month,
+.ui-datepicker-year {
+  font-size: 1.25em;
+  font-weight: 100;
+}
+
+.ui-datepicker-header {
+  background: #F60;
+}
+
+.event-wrapper {
+  padding: 10px;
+}
+
+.event-wrapper:hover {
+  background: #000;
+}
+
+.event-title {
+  color: white;
+}
+
+.event-title:hover {
+  color: #F60;
+}
+
+.event-author {
+  color: rgb(180,180,180);
+}
+
+.event-date {
+  color: rgb(150,150,150);
+}
+
